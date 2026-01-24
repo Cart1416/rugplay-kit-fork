@@ -78,5 +78,3 @@ All contributions must adhere to the community-focused purpose of the toolkit.
 ## License
 
 MIT License – Free to use, modify, and share for educational and community purposes.
-
-Do you want me to do that next?
