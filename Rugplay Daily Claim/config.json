@@ -1,0 +1,23 @@
+{
+  "check_interval_seconds": 60,
+  "accounts": [
+    {
+      "display_name": "YOUR_DISPLAY_NAME_HERE",
+      "cf_clearance": "PASTE_YOUR_CF_CLEARANCE_COOKIE_HERE",
+      "__Secure-better-auth.session_token": "PASTE_YOUR_SESSION_TOKEN_HERE",
+      "notes": "Use Chrome devtools → Application tab → Cookies to get these values. Replace YOUR_DISPLAY_NAME_HERE with any label you want for this account."
+    }
+  ],
+  "options": {
+    "auto_retry_on_fail": true,
+    "retry_delay_seconds": 5,
+    "log_to_file": true,
+    "log_file_path": "rugplay_claim_log.txt",
+    "max_attempts_per_account": 3
+  },
+  "metadata": {
+    "created_by": "@Cart1416 & @GatsbyingDev",
+    "script_version": "1.0.0",
+    "description": "Template config for Rugplay Daily Reward Claimer. Supports multiple accounts with failover and logging options. Edit display_name, cf_clearance, and session_token for each account."
+  }
+}
