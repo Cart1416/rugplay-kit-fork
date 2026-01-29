@@ -1,12 +1,12 @@
 import asyncio, json, requests, websockets # remember to install these shi-
 
 WS = "wss://ws.rugplay.com"
-TOPIC = "cart1416rugplaytest" # edit this to your desired name, and note it down
+TOPIC = "rugrugrugrugrugrug" # edit this to your desired name, and note it down
 WATCH_FOR_COMMENTS = True
 WATCH_FOR_TRADES = True
 
 # List the coins you want to watch for comments (not live trades)
-COINS = ["DPED2026", "HTD3", "FREE"]
+COINS = ["DPED2026", "HTD3", "VOLCANOO"]
 
 def format_dollars(amount):
     if amount >= 1_000_000:
